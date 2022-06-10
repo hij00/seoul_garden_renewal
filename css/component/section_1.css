@@ -1,12 +1,58 @@
 .section_1{
     height: 100vh;
+    position: relative;
+   }
+
+.bg_wrap_1{
+    width: 100%;
+    height: 100%;
+    /* z-index: 1; */
+}
+
+.bg_img_wrap_3{
+    width: 300vw;
+    height: 100%;
+}
+
+
+.bg_img_1{
+    width: 100vw;
+    height: 100%;
+    
+}
+
+.img_1{
     background-image: url(../../img/bg_1-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     background-attachment: fixed;
-   }
+}
+
+.img_2{
+    background-image: url(../../img/7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img_3{
+    background-image: url(../../img/center_onsil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.swiper-button-prev{
+   opacity: 0.5;
+}
+
+.swiper-button-next{
+    opacity: 0.5;
+}
+
 
 .container{
     width: 100%;
@@ -17,6 +63,7 @@
     padding: 22px 0;
     left: 0;
     bottom: 0;
+    z-index: 2;
 }
 
 

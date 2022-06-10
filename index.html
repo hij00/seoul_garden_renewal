@@ -11,6 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
 
 </head>
 
@@ -65,90 +72,108 @@
 
     <section class="section_1">
 
-
-         <div class="container">
+        <div class="bg_wrap_1 swiper">
             
-             <div class="con_wrap_1">
+            <div class="bg_img_wrap_1 swiper-wrapper">
+            
+                <div class="bg_img_1 img_1 swiper-slide"></div>
+                <div class="bg_img_1 img_2 swiper-slide"></div>
+                <div class="bg_img_1 img_3 swiper-slide"></div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+
+            <div class="swiper-pagination" style="bottom : 300px; display: flex; justify-content: right; "></div>
+        </div>
+
+        <script src="js/slide.js"></script>
+
+        <div class="container">
+        
+            <div class="con_wrap_1">
+            
+            <div class="title_1">
+                <h3>관람시간</h3>
+            </div>
+        
+            <div class="con_time_1">
                 
-                <div class="title_1">
-                    <h3>관람시간</h3>
-                </div>
-            
-                <div class="con_time_1">
-                    
-                    <div class="time_1">
-                        <p>
-                            관람시간<br>
-                            <span>9:30 - 18:00</span>
-                        </p>
-                        <p>
-                            매표마감<br>
-                            <span>17:00</span>
-                        </p>
-                    </div>
-
-                    <h3 class="rest_1">매주 월요일 휴관</h3>
-
+                <div class="time_1">
+                    <p>
+                        관람시간<br>
+                        <span>9:30 - 18:00</span>
+                    </p>
+                    <p>
+                        매표마감<br>
+                        <span>17:00</span>
+                    </p>
                 </div>
 
-             </div>
+                <h3 class="rest_1">매주 월요일 휴관</h3>
 
-             <div class="con_wrap_1">
+            </div>
 
-                <div class="title_1">
-                    <h3>이용요금</h3>
-                </div>
-                <div class="con_price">
+            </div>
 
-                    <div class="price_1">
+            <div class="con_wrap_1">
 
-                        <ul class="target_1">
+            <div class="title_1">
+                <h3>이용요금</h3>
+            </div>
+            <div class="con_price">
 
-                            <li><h3>개인 , 대인</h3></li>
-                            <li><h3>5,000원</h3></li>
+                <div class="price_1">
 
-                        </ul>
+                    <ul class="target_1">
 
-                        <ul class="target_1">
+                        <li><h3>개인 , 대인</h3></li>
+                        <li><h3>5,000원</h3></li>
 
-                            <li><h3>청소년</h3></li>
-                            <li><h3>3,000원</h3></li>
+                    </ul>
 
-                        </ul>
+                    <ul class="target_1">
 
-                        <ul class="target_1">
+                        <li><h3>청소년</h3></li>
+                        <li><h3>3,000원</h3></li>
 
-                            <li><h3>소인</h3></li>
-                            <li><h3>2,000원</h3></li>
+                    </ul>
 
-                        </ul>
+                    <ul class="target_1">
 
-                    </div>
-                    <h3 class="sale">
-                        단체(30인 이상) <br>
-                        <span>30% 할인</span>
-                    </h3>
+                        <li><h3>소인</h3></li>
+                        <li><h3>2,000원</h3></li>
+
+                    </ul>
 
                 </div>
+                <h3 class="sale">
+                    단체(30인 이상) <br>
+                    <span>30% 할인</span>
+                </h3>
 
-             </div>
-             <div class="con_wrap_1">
+            </div>
 
-                <div class="title_1">
-                    <h3>SNS</h3>
-                </div>
+            </div>
+            <div class="con_wrap_1">
 
-                <div class="icon_wrap_1">
+            <div class="title_1">
+                <h3>SNS</h3>
+            </div>
 
-                    <a href="https://www.youtube.com/channel/UC2zrGJ4PxD4JHGkTJodWdSw"><img src="img/youtube_2.png" alt="유튜브아이콘"></a>
-                    <a href="https://www.instagram.com/"><img src="img/instar_2.png" alt="인스타아이콘"></a>
-                    <a href="https://ko-kr.facebook.com/"><img src="img/facebook_2.png" alt="페이스북아이콘"></a>
+            <div class="icon_wrap_1">
 
-                </div>
+                <a href="https://www.youtube.com/channel/UC2zrGJ4PxD4JHGkTJodWdSw"><img src="img/youtube_2.png" alt="유튜브아이콘"></a>
+                <a href="https://www.instagram.com/"><img src="img/instar_2.png" alt="인스타아이콘"></a>
+                <a href="https://ko-kr.facebook.com/"><img src="img/facebook_2.png" alt="페이스북아이콘"></a>
 
-             </div>
+            </div>
 
-         </div>
+            </div>
+
+        </div>
 
 
     </section>
