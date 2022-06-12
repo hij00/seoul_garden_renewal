@@ -117,7 +117,7 @@
 .photo_3{
     background-image: url(../../img/photo.jpg);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     background-size: cover;
     position: absolute;
     right: 0;
