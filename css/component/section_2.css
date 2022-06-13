@@ -73,8 +73,8 @@
   font-size: 18px;
   font-weight: 100;
   color: #dbdbdb;
-  line-height: 40px;
-  letter-spacing: -2px;
+  line-height: 30px;
+  letter-spacing: -1px;
 }
 
 .img_box_2 h3 {
@@ -128,7 +128,7 @@
 }
 
 .hosu_2 .img_2 {
-  background-image: url(../../img/hosu_.jfif);
+  background-image: url(../../img/hosu.jfif);
   background-position: left;
 }
 
@@ -150,12 +150,12 @@
 }
 
 .img_cover_2 p {
-  width: 50%;
+  width: 55%;
   font-size: 18px;
   font-weight: 100;
   color: #dbdbdb;
-  line-height: 40px;
-  letter-spacing: -2px;
+  line-height: 30px;
+  letter-spacing: -1px;
 }
 
 .text_box_2 li:hover a {

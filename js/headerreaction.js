@@ -39,29 +39,5 @@
     }
 
     menuIcon.addEventListener('click', menuClick)
-
-    // const mouseUp = (e) => {
-    //     if(e.target.classList.contains('hd_map')){
-    //         e.target.style.color = 'yellowgreen'
-    //     }else if (e.target.classList.contains('hd_menu_icon_wrap')){
-    //         menubar[0].style.backgroundColor = 'yellowgreen'
-    //         menubar[1].style.backgroundColor = 'yellowgreen'
-    //         menubar[2].style.backgroundColor = 'yellowgreen'
-    //     }
-    // }
-    // menuWrap.addEventListener('mouseover' , mouseUp)
-
-    // const mouseDown = (e) => {
-    //     if(e.target.classList.contains('hd_map')){
-    //         e.target.style.removeProperty('color')
-    //     }else if (e.target.classList.contains('hd_menu')){
-    //         menubar[0].style.removeProperty('backgroundColor')
-    //         menubar[1].style.removeProperty('backgroundColor')
-    //         menubar[2].style.removeProperty('backgroundColor')
-    //     }
-    // }
-    // menuWrap.addEventListener('mouseout' , mouseDown)
-
-
 })()
 

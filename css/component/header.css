@@ -9,7 +9,7 @@ header {
 
 .inheader {
   height: 80px;
-  padding: 25px 220px;
+  padding: 25px 170px 25px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;

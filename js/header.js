@@ -6,12 +6,6 @@
     const menuicon = document.querySelectorAll('.hd_menu')
     const section_1 = document.querySelector('.section_1')
     
-    
-    // let stc = window.pageYOffset
-    // =>구글맵 머시기대매 안먹힘 쌤한테 물어볼것.
-    // 왜? 함수안에 변수를 선언해야되는지 모르겠음.
-
-
     const hdScroll = () => {
         const stc = window.pageYOffset
         // const section_1_top = Math.abs(section_1.getBoundingClientRect().top)
