@@ -116,21 +116,15 @@
   justify-content: space-between;
   margin-top: 30px;
 }
-
-.target_1 {
+.people_wrap{
+  width: 220px;
   display: flex;
   justify-content: space-between;
 }
 
-.target_1 li:first-child {
-  margin-right: 50px;
-  margin-bottom: 33px;
+.people_wrap li{
+  margin-bottom: 22px;
 }
-
-.price_1 ul:last-child li:first-child {
-  margin-bottom: 0;
-}
-
 .sale {
   text-align: center;
 }
